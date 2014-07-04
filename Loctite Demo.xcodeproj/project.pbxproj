@@ -15,6 +15,10 @@
 		B93FD82A196739A600F8EF0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B93FD829196739A600F8EF0B /* AppDelegate.m */; };
 		B93FD82D196739A600F8EF0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93FD82B196739A600F8EF0B /* Main.storyboard */; };
 		B93FD832196739A600F8EF0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B93FD831196739A600F8EF0B /* Images.xcassets */; };
+		B93FD85019673AD600F8EF0B /* JMGLoctitePush.m in Sources */ = {isa = PBXBuildFile; fileRef = B93FD84F19673AD600F8EF0B /* JMGLoctitePush.m */; };
+		B93FD85419673CB400F8EF0B /* JMGLoctiteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B93FD85319673CB400F8EF0B /* JMGLoctiteUtils.m */; };
+		B93FD85719673D2900F8EF0B /* JMGLoctiteModal.m in Sources */ = {isa = PBXBuildFile; fileRef = B93FD85619673D2900F8EF0B /* JMGLoctiteModal.m */; };
+		B93FD85919673D9700F8EF0B /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93FD85819673D9700F8EF0B /* Second.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,13 @@
 		B93FD829196739A600F8EF0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B93FD82C196739A600F8EF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B93FD831196739A600F8EF0B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B93FD84E19673AD600F8EF0B /* JMGLoctitePush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMGLoctitePush.h; path = Loctite/JMGLoctitePush.h; sourceTree = "<group>"; };
+		B93FD84F19673AD600F8EF0B /* JMGLoctitePush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMGLoctitePush.m; path = Loctite/JMGLoctitePush.m; sourceTree = "<group>"; };
+		B93FD85219673CB400F8EF0B /* JMGLoctiteUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMGLoctiteUtils.h; path = Loctite/JMGLoctiteUtils.h; sourceTree = "<group>"; };
+		B93FD85319673CB400F8EF0B /* JMGLoctiteUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMGLoctiteUtils.m; path = Loctite/JMGLoctiteUtils.m; sourceTree = "<group>"; };
+		B93FD85519673D2900F8EF0B /* JMGLoctiteModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMGLoctiteModal.h; path = Loctite/JMGLoctiteModal.h; sourceTree = "<group>"; };
+		B93FD85619673D2900F8EF0B /* JMGLoctiteModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMGLoctiteModal.m; path = Loctite/JMGLoctiteModal.m; sourceTree = "<group>"; };
+		B93FD85819673D9700F8EF0B /* Second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +60,7 @@
 		B93FD80D196739A600F8EF0B = {
 			isa = PBXGroup;
 			children = (
+				B93FD85119673AE200F8EF0B /* Loctite */,
 				B93FD81F196739A600F8EF0B /* Loctite Demo */,
 				B93FD818196739A600F8EF0B /* Frameworks */,
 				B93FD817196739A600F8EF0B /* Products */,
@@ -79,6 +91,7 @@
 				B93FD828196739A600F8EF0B /* AppDelegate.h */,
 				B93FD829196739A600F8EF0B /* AppDelegate.m */,
 				B93FD82B196739A600F8EF0B /* Main.storyboard */,
+				B93FD85819673D9700F8EF0B /* Second.storyboard */,
 				B93FD831196739A600F8EF0B /* Images.xcassets */,
 				B93FD820196739A600F8EF0B /* Supporting Files */,
 			);
@@ -94,6 +107,27 @@
 				B93FD827196739A600F8EF0B /* Loctite Demo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B93FD85119673AE200F8EF0B /* Loctite */ = {
+			isa = PBXGroup;
+			children = (
+				B93FD85A19673FD300F8EF0B /* Utils */,
+				B93FD84E19673AD600F8EF0B /* JMGLoctitePush.h */,
+				B93FD84F19673AD600F8EF0B /* JMGLoctitePush.m */,
+				B93FD85519673D2900F8EF0B /* JMGLoctiteModal.h */,
+				B93FD85619673D2900F8EF0B /* JMGLoctiteModal.m */,
+			);
+			name = Loctite;
+			sourceTree = "<group>";
+		};
+		B93FD85A19673FD300F8EF0B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B93FD85219673CB400F8EF0B /* JMGLoctiteUtils.h */,
+				B93FD85319673CB400F8EF0B /* JMGLoctiteUtils.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93FD85919673D9700F8EF0B /* Second.storyboard in Resources */,
 				B93FD832196739A600F8EF0B /* Images.xcassets in Resources */,
 				B93FD824196739A600F8EF0B /* InfoPlist.strings in Resources */,
 				B93FD82D196739A600F8EF0B /* Main.storyboard in Resources */,
@@ -162,8 +197,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93FD85019673AD600F8EF0B /* JMGLoctitePush.m in Sources */,
+				B93FD85719673D2900F8EF0B /* JMGLoctiteModal.m in Sources */,
 				B93FD826196739A600F8EF0B /* main.m in Sources */,
 				B93FD82A196739A600F8EF0B /* AppDelegate.m in Sources */,
+				B93FD85419673CB400F8EF0B /* JMGLoctiteUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
