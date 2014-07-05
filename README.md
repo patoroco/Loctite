@@ -4,6 +4,8 @@ How many times did you ear about what pain is work with `storyboards` in team be
 
 How much time did you spend loading big storyboard files in your slow machine?
 
+![Loctite](Screenshots/loctite.jpg)
+
 `Loctite` arrives to help you to split your `Main.storyboard` unique file in several sub-storyboards, and acts as glue (Loctite's name comes from here ;)) to connect them.
 
 And all of that without write any line of code!!!
