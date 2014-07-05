@@ -25,7 +25,7 @@ After install pod in your project, you only need to generate a dummy view contro
 
 ![Action segue selector](Screenshots/actionsegue.png)
 
-After that, you only need to set segue identifier to `[storyboard_file].[viewcontroller_identifier]`, for example, if you have another storyboard named `Second.storyboard`, you should set segue identifier to `Second.recursiveVC`, and it'll fired `recursiveVC` view controller from this separated file. Easy, isn't it?
+After that, you only need to set segue identifier to `[storyboard_file].[viewcontroller_identifier]`, for example, if you have another storyboard named `Second.storyboard`, you should set segue identifier to `Second.recursiveVC`, and it'll fire `recursiveVC` view controller from this separated file. Easy, isn't it?
 
 ![Storyboard](Screenshots/storyboard.png)
 
