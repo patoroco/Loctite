@@ -35,4 +35,4 @@ Anyway, my recomendation is to inspect __Demo project__ to see examples.
 - Jorge Maroto ([@patoroco](http://twitter.com/patoroco)).
 
 ## License
-`Modaly` is available under the MIT license. See the [LICENSE file](LICENSE.md) for more info.
+`Loctite` is available under the MIT license. See the [LICENSE file](LICENSE.md) for more info.
