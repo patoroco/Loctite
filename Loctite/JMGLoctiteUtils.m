@@ -30,8 +30,11 @@
 
 @implementation JMGLoctiteUtils
 
-+ (UIViewController *)viewControllerForPath:(NSString *)identifier {
-    NSArray *info = [identifier componentsSeparatedByString:@"."];
+static const NSString *kStoryboardSeparator = @"_";
+
+
++ (UIViewController *)viewControllerForPath:(NSString *)identifier{
+    NSArray *info = [identifier componentsSeparatedByString:kStoryboardSeparator];
     
     NSString *storyboardFile = info[0];
     NSString *destinationIdentifier = info[1];
