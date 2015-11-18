@@ -31,8 +31,8 @@
 @implementation JMGLoctiteUtils
 
 
-static const NSString *kDefaultStoryboardSeparator = @".";
-static const NSString *kStoryboardSeparatorInfoKey = @"Loctite Separator";
+NSString * const kDefaultStoryboardSeparator = @".";
+NSString * const kStoryboardSeparatorInfoKey = @"Loctite Separator";
 
 
 + (UIViewController *)viewControllerForPath:(NSString *)identifier{
