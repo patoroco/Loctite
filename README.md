@@ -29,6 +29,9 @@ After that, you only need to set segue identifier to `[storyboard_file].[viewcon
 
 ![Storyboard](Screenshots/storyboard.png)
 
+If you need a different separator rather than '.', you can specify it on your project's info.plist, using the key 'Loctite Separator'. This key will override the default one.
+Example: using "Loctite Separator : _" in your info.plist, Loctite would expect your segue identifiers as `[storyboard_file]_[viewcontroller_identifier]`.
+
 Anyway, my recomendation is to inspect __Demo project__ to see examples.
 
 ## Author
