@@ -30,8 +30,15 @@
 
 @implementation JMGLoctiteUtils
 
-+ (UIViewController *)viewControllerForPath:(NSString *)identifier {
-    NSArray *info = [identifier componentsSeparatedByString:@"."];
+
+static const NSString *kDefaultStoryboardSeparator = @".";
+static const NSString *kStoryboardSeparatorInfoKey = @"Loctite Separator";
+
+
++ (UIViewController *)viewControllerForPath:(NSString *)identifier{
+    
+    NSString *customSeparator = [[NSBundle mainBundle] objectForInfoDictionaryKey:kStoryboardSeparatorInfoKey];
+    NSArray *info = [identifier componentsSeparatedByString:(customSeparator) ?: kDefaultStoryboardSeparator];
     
     NSString *storyboardFile = info[0];
     NSString *destinationIdentifier = info[1];
