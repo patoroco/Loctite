@@ -13,7 +13,7 @@ And all of that without writing any line of code!!!
 
 ## Install
 
-`Loctite` is available via Cocoa Pods, so you only need to include this line in your Podfile
+`Loctite` is available via CocoaPods, so you only need to include this line in your Podfile
 
 ```
 pod 'Loctite'
