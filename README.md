@@ -1,4 +1,4 @@
-#Loctite
+# Loctite
 
 How many times did you hear about the pain it is to work with `storyboards` in a team because it kills your SCM?
 
